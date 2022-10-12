@@ -27,7 +27,7 @@ const Home = () => {
             <div className="container2">
                 <img className="rightbackground" src ={bg3} alt ="" />
                 <div>
-                    <h2 className="rightbackground-h2">What is a <span className="htext">NFT?</span>.</h2>
+                    <h2 className="rightbackground-h2">What is a <span className="htext">NFT?</span></h2>
                 </div>
                 <p className="rightbackground-p"> NFTs (non-fungible tokens) are unique cryptographic tokens that exist on a blockchain and cannot be replicated. NFTs can represent real-world items like artwork and real estate. </p>
                 <button className="rightbackground-button">Know <span className="htext">More</span></button>

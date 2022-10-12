@@ -9,6 +9,7 @@ import ContactUs from './pages/ContactUs';
 import Nopage from './pages/Nopage';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Nftpay from './thirdweb/nftpay'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/Nft" element={<Nft />} />
       <Route path="/ContactUs" element={<ContactUs />} />
+      <Route path="/Nftpay" element={<Nftpay />} />
       <Route path="*" element={<Nopage />} />
     </Routes>
     <Footer/>
@@ -27,3 +29,4 @@ function App() {
 }
 
 export default App;
+

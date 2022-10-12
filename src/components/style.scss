@@ -3,7 +3,7 @@
     z-index: 10;
     position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     background-color:#fff;
     display: flex;
     justify-content: space-between;
@@ -49,6 +49,10 @@
 }
 
 
+    
+
+
+
 
 .background{
     position: absolute;
@@ -56,8 +60,11 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
+    opacity: 0.8;
     z-index: -1;
+    
 }
+
 .container1{
     margin-top: 5%;
 }
@@ -82,7 +89,7 @@
     }
     &-p{
         margin-left: 42%;
-        margin-top: -10%;
+        margin-top: -5%;
         // width: 778px;
         // height: 237px;
         left: 1117px;
@@ -95,6 +102,7 @@
     }
     &-button
     {
+        cursor: pointer;
         margin-left: 42%;
         width: 40vmin;
         height: 10vh;
@@ -126,6 +134,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
+    
 }
 .container {
     display: inline-block;
@@ -137,7 +146,7 @@
     // margin-top: 100px;
     &-p{
         margin-left: 20px;
-        margin-top: -10%;
+        margin-top: -5%;
         width: 778px;
         height: 237px;
         left: 1117px;
@@ -152,7 +161,7 @@
         margin-left: 20px;
         width: 763px;
         height: 122px;
-        // margin-top: %;
+        margin-top: 6%;
         padding-bottom: 5%;
         // left: 1114px;
         top: 10%;
@@ -164,6 +173,7 @@
     }
     &-button
     {
+        cursor: pointer;
         margin-left: 20px;
         width: 40vmin;
         height: 10vh;
@@ -284,7 +294,7 @@ h5{
     }
     &-p{
         float: right;
-        margin-top: -8%;
+        margin-top: -4%;
         width: 778px;
         height: 237px;
         left: 1117px;

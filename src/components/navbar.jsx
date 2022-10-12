@@ -34,6 +34,9 @@ const Navbar = () =>{
                 <li className={activeLink ==="/ContactUs" ? "active":""}>
                     <Link to="/ContactUs">Contact Us</Link>
                 </li>
+                <li className={activeLink ==="/Nftpay" ? "active":""}>
+                    <Link to="/Nftpay">Nftpay</Link>
+                </li>
             </ul>
         </div>
     )

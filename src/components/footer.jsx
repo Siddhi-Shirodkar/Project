@@ -9,7 +9,7 @@ const Background = () => {
             <div className="footer">
                 <img className="footer-img" src ={foot} alt ="" />    
             </div>
-            <h5 className="footerh5">© 2022 Website, Inc. All rights reserved     Terms and Conditions          Privacy Policy       Cookies Policy </h5>
+            <h5 className="footerh5">© 2022 Website, Inc. All rights reserved      Terms and Conditions          Privacy Policy       Cookies Policy </h5>
         </div>
         
         
